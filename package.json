@@ -1,0 +1,14 @@
+{
+  "name": "@template-monorepo/monorepo",
+  "version": "0.0.0-alpha.0",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
